@@ -9,6 +9,9 @@ buildscript {
         maven {
             url 'https://maven.aliyun.com/repository/releases'
         }
+        maven {
+            url 'http://114.67.101.29:8081/nexus/content/repositories/releases/'
+        }
     }
 
     dependencies {
@@ -45,14 +48,14 @@ repositories {
     maven {
         url 'https://maven.aliyun.com/repository/releases'
     }
-    flatDir {
-        dirs 'libs'
+    maven {
+        url 'http://114.67.101.29:8081/nexus/content/repositories/releases/'
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:0.63.3'
-    implementation (name:'AliyunPlayer-5.1.6-full',ext:'aar')
+    implementation 'com.dsg:aliplayer:1.0.0'
     implementation 'com.alivc.conan:AlivcConan:1.0.4'
 }
   
