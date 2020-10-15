@@ -11,13 +11,13 @@
     "react-native"
   ],
   "author": {
-    "name": "qiuling",
-    "email": "ql488577@gmail.com"
+    "name": "ql488577",
+    "email": "785020092@qq.com"
   },
   "license": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:callcter/react-native-screenshotcatch.git"
+    "url": "git@github.com:lyp82nlf/react-native-AliPlayer.git"
   },
   "devDependencies": {
     "react": "16.9.0",
