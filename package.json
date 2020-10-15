@@ -1,0 +1,32 @@
+
+{
+  "name": "react-native-aliplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "qiuling",
+    "email": "ql488577@gmail.com"
+  },
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:callcter/react-native-screenshotcatch.git"
+  },
+  "devDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.63.3"
+  },
+  "peerDependencies": {
+    "react": "16.9.0"
+  },
+  "dependencies": {
+    "prop-types": "latest"
+  }
+}
